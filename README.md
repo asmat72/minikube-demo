@@ -39,10 +39,11 @@ Clone the repository: git clone https://github.com/asmat72/minikube-demo.git
 #### Apply Service
          kubectl apply -f service.yaml
 #### Verify & Manage
-         Check Pods: 
-         Check Services:
-         Scale Deployment:
-         Describe Resources:
+         Check Pods: "kubectl get pods"
+         Check Services: "kubectl get services"
+         Scale Deployment: "kubectl scale deployment my-app --replicas=4"
+         Describe Resources: "kubectl describe pod <pod-name>"
+                             "kubectl describe service my-service"
 ### ✅ Summary
           This task helps you understand how to:
              Set up a local Kubernetes cluster.
