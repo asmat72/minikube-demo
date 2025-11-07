@@ -1,18 +1,22 @@
-# minikube-demo
-### 🎯 Objective  
+# ***minikube-demo***
+
+### ***🎯 Objective:***  
 Deploy and manage a containerized application using Kubernetes on a local cluster powered by Minikube.
-Clone the repository: git clone https://github.com/asmat72/minikube-demo.git
-### 🛠️ Tools Required
+***Clone the repository: git clone https://github.com/asmat72/minikube-demo.git***
+
+### ***🛠️ Tools Required:***
  - [Docker Desktop]
  - [Minikube]
  - [kubectl]
-### 📦 Deliverables
+
+### ***📦 Deliverables:***
    - "deployment.yaml" and "service.yaml" files
    - Screenshots of:
    - "kubectl get pods".
    - "kubectl get services".
    - "kubectl describe" output.
-### 🚀 Step-by-Step Instructions.
+
+### ***🚀 Step-by-Step Instructions:***
 - Install Minikube
   - "bash" 
    - choco install minikube   # Windows (via Chocolatey)
@@ -44,7 +48,8 @@ Clone the repository: git clone https://github.com/asmat72/minikube-demo.git
    - Scale Deployment: "kubectl scale deployment my-app --replicas=4"
    - Describe Resources: "kubectl describe pod <pod-name>"
                          "kubectl describe service my-service"
-### ✅ Summary
+
+### ***✅ Summary:***
    - This task helps you understand how to:
    - Set up a local Kubernetes cluster.
    - Deploy and expose containerized apps.
